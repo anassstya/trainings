@@ -1,0 +1,55 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.mainForm{
+    display: flex;
+    flex-direction: row;
+    gap: 30px
+}
+.mainFormItem{
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+.mainInput{
+    min-width: 15vw;
+    height: 5vh;
+    border-radius: 10px;
+    padding: 0;
+}
+.mainBtn{
+    min-width: 5vw;
+    height: 5vh;
+    border-radius: 10px;
+    align-self: flex-end;
+}
+.mainData{
+    min-width: 40vw;
+    margin-top: 30px;
+    border-radius: 15px;
+    height: 30vh;
+    border: 1px solid black;
+}
+.mainData{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 15px
+}
+.dataItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.deleteBtn{
+    height: 30px;
+}
